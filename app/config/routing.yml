@@ -1,0 +1,7 @@
+birthday_reminder:
+    resource: "@BirthdayReminderBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
